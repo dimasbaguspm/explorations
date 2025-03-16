@@ -1,5 +1,5 @@
-import type { Router } from "express";
+import type { Router } from 'express'
 
 export interface RoutesModel {
-  routes: () => Router;
+  routes: () => Router
 }

@@ -1,2 +1,2 @@
-export * from "./routes-interface";
-export * from "./controller-interface";
+export * from './routes-interface'
+export * from './controller-interface'
