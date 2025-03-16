@@ -1,4 +1,6 @@
 {pkgs, ...}: let
+  # NOTE - this is a script that is run by devenv to set up the environment
+  # before running `devenv up` command ensure to change the environment variables below
   env = {
     DB_USER = "user";
     DB_PASS = "pass";
